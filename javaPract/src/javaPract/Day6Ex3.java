@@ -11,7 +11,7 @@ public class Day6Ex3 {
 		int result=A*B*C;
 		System.out.println(result);
 		int [] num = {0,0,0,0,0,0,0,0,0,0,0};
-		String resultString=String.valueOf(result);
+		String resultString=Integer.toString(result);
 		String [] resultString2 = resultString.split("");
 		for(int i =0; i<resultString2.length; i++) {
 			if (Integer.parseInt(resultString2[i])==0) {
