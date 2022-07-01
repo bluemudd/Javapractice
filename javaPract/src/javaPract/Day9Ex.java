@@ -42,6 +42,7 @@ public class Day9Ex {
 			System.out.println(String.format("%.3f", result)+"%");
 			result=0;
 			count=0;
+			
 		}
 		
 	}
